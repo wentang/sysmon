@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="window">
+      <UniqueIdentifier>{8baa70e7-1537-4fd8-8d96-587eedfd91fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sysmon_dialog.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="sysmon.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="taskbar_dialog.h">
+      <Filter>window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sysmon_dialog.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="sysmon.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="taskbar_dialog.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sysmon.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\sysmon.rc2">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\sysmon.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
